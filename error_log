@@ -1,0 +1,99 @@
+[26-Mar-2022 05:52:51 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:52:51 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:52:51 America/Boise] PHP Fatal error:  require(): Failed opening required '/home3/mazyonah/public_html/amazon/project/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:52:58 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:52:58 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:52:58 America/Boise] PHP Fatal error:  require(): Failed opening required '/home3/mazyonah/public_html/amazon/project/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:56:09 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:56:09 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:56:09 America/Boise] PHP Fatal error:  require(): Failed opening required '/home3/mazyonah/public_html/amazon/project/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:56:14 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:56:14 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/autoload.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:56:14 America/Boise] PHP Fatal error:  require(): Failed opening required '/home3/mazyonah/public_html/amazon/project/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/mazyonah/public_html/amazon/index.php on line 24
+[26-Mar-2022 05:57:19 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/composer/../symfony/polyfill-php80/bootstrap.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/vendor/composer/autoload_real.php on line 71
+[26-Mar-2022 05:57:19 America/Boise] PHP Warning:  require(/home3/mazyonah/public_html/amazon/project/vendor/composer/../symfony/polyfill-php80/bootstrap.php): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/vendor/composer/autoload_real.php on line 71
+[26-Mar-2022 05:57:19 America/Boise] PHP Fatal error:  require(): Failed opening required '/home3/mazyonah/public_html/amazon/project/vendor/composer/../symfony/polyfill-php80/bootstrap.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/mazyonah/public_html/amazon/project/vendor/composer/autoload_real.php on line 71
+[26-Mar-2022 14:08:37 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:37 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:41 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:41 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:48 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:48 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:53 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:53 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:56 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:08:56 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:09:13 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
+[26-Mar-2022 14:09:13 UTC] PHP Fatal error:  Uncaught ErrorException: file_get_contents(/home3/mazyonah/public_html/amazon/project/..//assets/languages/1579927527QjLMUGyj.json): failed to open stream: No such file or directory in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php:49
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_get_conten...', '/home3/mazyonah...', 49, Array)
+#1 /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php(49): file_get_contents('/home3/mazyonah...')
+#2 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesEvents.php(162): App\Providers\AppServiceProvider->App\Providers\{closure}(Object(Illuminate\View\View))
+#3 /home3/mazyonah/public_html/amazon/project/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(378): Illuminate\View\Factory->Illuminate\View\Concerns\{closure}('composing: erro...', Array)
+#4 /home3/mazyonah/public_html/amazon/project/vendor/lar in /home3/mazyonah/public_html/amazon/project/app/Providers/AppServiceProvider.php on line 49
