@@ -364,12 +364,12 @@
             <a href="{{ route('admin-cache-clear') }}" class=" wave-effect"><i class="fas fa-sync"></i>{{ __('Clear Cache') }}</a>
         </li>
         <li>
+
             <a href="#sactive" class="accordion-toggle wave-effect" data-toggle="collapse" aria-expanded="false">
-                <i class="fas fa-cog"></i>{{ __('System Activation') }}
+                <i class="fas fa-cog"></i>{{ __('Generate Backup') }}
             </a>
             <ul class="collapse list-unstyled" id="sactive" data-parent="#accordion">
 
-                <li><a href="{{route('admin-activation-form')}}"> {{ __('Activation') }}</a></li>
-                <li><a href="{{route('admin-generate-backup')}}"> {{ __('Generate Backup') }}</a></li>
+
             </ul>
         </li>

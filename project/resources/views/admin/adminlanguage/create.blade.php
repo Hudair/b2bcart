@@ -1397,33 +1397,7 @@ textarea.input-field {
                                 </div>
 
                               
-                                <div class="lang-area">
-                                  <span class="remove lang-remove"><i class="fas fa-times"></i></span>
-                                  <div class="row">
-                                    <div class="col-lg-6">
-                                      <textarea name="keys[]" class="input-field" placeholder="Enter Language Key" required="">System Activation</textarea>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                      <textarea  name="values[]" class="input-field" placeholder="Enter Language Value" required="">System Activation</textarea>
-                                    </div>
-                                  </div>
-                                </div>
-
-                              
-                                <div class="lang-area">
-                                  <span class="remove lang-remove"><i class="fas fa-times"></i></span>
-                                  <div class="row">
-                                    <div class="col-lg-6">
-                                      <textarea name="keys[]" class="input-field" placeholder="Enter Language Key" required="">Activation</textarea>
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                      <textarea  name="values[]" class="input-field" placeholder="Enter Language Value" required="">Activation</textarea>
-                                    </div>
-                                  </div>
-                                </div>
-
+                            
                               
                                 <div class="lang-area">
                                   <span class="remove lang-remove"><i class="fas fa-times"></i></span>
